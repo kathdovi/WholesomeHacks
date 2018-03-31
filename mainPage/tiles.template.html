@@ -1,25 +1,11 @@
 <div  ng-cloak="" class="carddemoBasicUsage" >
   <md-content class="md-padding" layout-xs="column" layout="row">
     <div flex-xs="" flex-gt-xs="50" layout="column">
-      <md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-theme-watch="">
-        <md-card-title>
-          <md-card-title-text>
-            <span class="md-headline">Stand Up Timer</span>
-            <span class="md-subhead">Subhead</span>
-          </md-card-title-text>
-          <md-card-title-media>
-            <div class="md-media-lg card-media"></div>
-          </md-card-title-media>
-        </md-card-title>
-        <md-card-actions layout-align="end center">
-          <md-button>Action 1</md-button>
-          <md-button>Action 2</md-button>
-        </md-card-actions>
-      </md-card>  
+      
       <md-card md-theme="{{ showDarkTheme ? 'dark-orange' : 'default' }}" md-theme-watch="">
         <md-card-title>
           <md-card-title-text>
-            <span class="md-headline"><center>Water Intake</center></span>
+            <span class="md-headline"><center>water intake</center></span>
             <span class="md-subhead"><timer/></span>
           </md-card-title-text>
         </md-card-title>
@@ -27,13 +13,11 @@
           <img src = "{{imagePath}}" height="100%" width="85%" mat-card-image/>
 
           <md-card-actions layout="column">
-            <md-button class="md-icon-button" aria-label="Settings" >
-              <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
-            </md-button>
             <md-button class="md-icon-button" aria-label="Share" ng-click="changeWaterPicture()">
               <md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>
             </md-button>
-          </md-card-actions>
+              <md-switch ng-model="waterHandlerEnabled" aria-label="Switch 1"> </md-switch>
+            </md-card-actions>
         </md-card-content>
         
       </md-card>
@@ -44,32 +28,32 @@
       <md-card md-theme="{{ showDarkTheme ? 'dark-purple' : 'default' }}" md-theme-watch="">
         <md-card-title>
           <md-card-title-text>
-            <span class="md-headline">Card with image</span>
-            <span class="md-subhead">Small</span>
+            <span class="md-headline"><center>stand up</center></span>
           </md-card-title-text>
           <md-card-title-media>
             <div class="md-media-sm card-media"></div>
           </md-card-title-media>
         </md-card-title>
-        <md-card-actions layout="row" layout-align="end center">
-          <md-button>Action 1</md-button>
-          <md-button>Action 2</md-button>
+        <md-card-actions>
+            <md-switch ng-model="standUpHandlerEnabled" aria-label="Switch 1"> </md-switch>
         </md-card-actions>
+       
+
       </md-card>
 
       <md-card md-theme="{{ showDarkTheme ? 'dark-blue' : 'default' }}" md-theme-watch="">
         <md-card-title>
           <md-card-title-text>
-            <span class="md-headline">Card with image</span>
-            <span class="md-subhead">Medium</span>
+            <span class="md-headline"><center>eating tracker</center></span>
           </md-card-title-text>
           <md-card-title-media>
             <div class="md-media-md card-media"></div>
           </md-card-title-media>
         </md-card-title>
         <md-card-actions layout="row" layout-align="end center">
-          <md-button>Action 1</md-button>
-          <md-button>Action 2</md-button>
+          <img ng-src = "{{eatingTrackerPictures}}" width="100%" mat-card-image/>
+		    <md-button ng-click="addToEatingPicture()">eat</md-button>
+            <md-switch ng-model="fiveMeals"  ng-change="changeEatingPicture()" aria-label="5 meals"> </md-switch>
         </md-card-actions>
       </md-card>
 
