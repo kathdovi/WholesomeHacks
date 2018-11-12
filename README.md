@@ -34,5 +34,5 @@ Some things we'd like to add in the future are:
 ## Acknowledgments
 
 * Listen to the songs [here](https://soundcloud.com/user-698543340).
-
+* Placed in the top 5 teams for Wholesome Hacks put on by Freetail Hackers
 
