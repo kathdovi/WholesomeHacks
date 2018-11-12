@@ -33,6 +33,6 @@ Some things we'd like to add in the future are:
 
 ## Acknowledgments
 
-* Listen to the songs [here](https://soundcloud.com/user-698543340)
+* Listen to the songs [here](https://soundcloud.com/user-698543340).
 
 
