@@ -7,10 +7,10 @@ Wholesome Web App is an application that provides users with reminders to help t
 ### Meal Tracker
 This feature lets users track the numbers of meals they consume per day. When coding, many developers can attest to forgetting to eat until late in the day. Our app lets the user choose between 3 and 5 meals per day. At meal time, the user's Spotify will be stopped and a song called "Time To Eat" will play, reminding the user to eat. The user can toggle the reminder features on or off with the toggle in the meal tracker box.
 
-## Water Tracker
+### Water Tracker
 This feature lets users track the glasses of water they drink per day. Each person is supposed to drink 8 glasses of water per day. At regular intervals, the user's Spotify will be stopped and a song called "Time To Drink Water" will play, reminding the user to drink a glass of water. The user can toggle the reminder features on or off with the toggle in the water tracker box.
 
-## Stand Reminders
+### Stand Reminders
 Each hour, you are supposed to stand for 15 minutes per hour. Our app will remind people to stand each hour, playing the song "Stand", pausing a user's Spotify, and dimming the screen. The user can toggle the reminder features on or off with the toggle in the water tracker box.
 
 
